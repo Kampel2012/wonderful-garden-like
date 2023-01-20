@@ -3,7 +3,6 @@
 
 .page {
   font-family: 'Comfortaa', cursive;
-  overflow: hidden;
 }
  
 .header {
@@ -13,7 +12,6 @@
   justify-content: center;
   flex-wrap: wrap;
   border-bottom: 1px solid #000;
-  overflow: hidden;
 }
 
 .header__logo {
