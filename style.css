@@ -1,0 +1,207 @@
+@import url(./normalize.css);
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Ubuntu+Mono:wght@400;700&display=swap');
+
+.page {
+  font-family: 'Comfortaa', cursive;
+  overflow: hidden;
+}
+ 
+.header {
+  max-width: 1280px;
+  margin: 35px auto 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #000;
+  overflow: hidden;
+}
+
+.header__logo {
+  align-self: center;
+  position: absolute;
+  top: -750px;
+  right: -265px;
+  transform: rotate(325deg);
+}
+
+.header__logo-link {
+  color: green;
+}
+
+.header__title {
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  margin: 10px 0 0 0;
+  font-weight: 600;
+  font-size: 38px;
+}
+
+.header__subtittle {
+  text-align: center;
+  margin: 5px auto 10px auto;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.content {
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+.contacts {
+  text-align: center;
+  margin: 0;
+}
+
+.contacts__link {
+  text-decoration: none;
+  color: green;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.contacts__adress {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.green-place {
+  background-image: url(./images/bi-green-place.jpg);
+  color: #fff;
+  min-height: 620px;
+  background-size: cover;
+  position: relative;
+}
+
+.gree-place__wrapper {
+  position: relative;
+  box-sizing: border-box;
+  padding-top: 50px;
+  margin: 0 auto;
+  width: calc(100% - 60px);
+  height: calc(100% - 60px);
+  z-index: 2;
+  text-align: center;
+}
+
+.green-place__title {
+  margin: 20px 0 40px 0;
+  padding: 0;
+  font-weight: 600;
+  font-size: 28px;
+  text-align: center;
+}
+
+.green-place__text {
+  text-align: center;
+  margin: 0 20px 30px 20px;
+  line-height: 25px;
+}
+
+.green-place__button {
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: rgb(20, 20, 20);
+  color: #fff;
+  font-weight: 800;
+  line-height: 30px;
+  border: none;
+}
+
+.green-place__button:hover {
+  cursor: pointer;
+}
+
+.gree-place__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgb(20, 20, 20);
+  width: calc(100% - 60px);
+  height: calc(100% - 60px);
+  opacity: 0.6;
+  margin: 30px 30px;
+}
+
+/* стили для services */
+.services {
+  margin-top: 40px;
+}
+
+.card-service {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+}
+
+.card-service__img {
+  max-width: calc(100%);
+  margin: 0;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card-service__subtitle {
+  text-transform: uppercase;
+  margin: 35px 0 25px 0;
+  font-size: 23px;
+  line-height: 25px;
+  font-weight: 700;
+}
+
+.card-service__text {
+  margin: 0 10px;
+  font-size: 15px;
+}
+
+.btn {
+  margin: 25px 0 33px 0;
+  padding: 12px 35px;
+  border: none;
+  border-radius: 4px;
+  background: linear-gradient(90deg, #0080bf, #32cd32);
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+/* Секция footer */
+
+.footer {
+  background-color: #111;
+  color: aliceblue;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.footer__subtitle {
+  margin: 0 15px 50px 15px;
+  padding-top: 80px;
+  font-size: 27px;
+}
+
+.footer__text {
+  font-size: 16px;
+  margin: 0 20px 30px 20px;
+  line-height: 26px;
+}
+
+.btn_type_footer {
+  margin-bottom: 70px;
+}
+
+@media screen and (min-width: 1000px) {
+  .services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 15px;
+  }
+
+  .card-service__img {
+    height: 270px;
+  }
+}
