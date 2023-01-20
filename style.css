@@ -6,12 +6,15 @@
 }
  
 .header {
+  position: relative;
   max-width: 1280px;
-  margin: 35px auto 0 auto;
+  margin: 0 auto 0 auto;
+  padding-top: 35px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   border-bottom: 1px solid #000;
+  overflow: hidden;
 }
 
 .header__logo {
@@ -19,6 +22,9 @@
   top: -750px;
   right: -265px;
   transform: rotate(325deg);
+  background-image: url(./images/leaf-svgrepo-com.svg);
+  height: 800px;
+  width: 800px;
 }
 
 .header__logo-link {
