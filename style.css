@@ -115,12 +115,13 @@
 
 .green-place__button {
   box-sizing: border-box;
-  padding: 20px;
+  padding: 20px 25px 20px 25px;
   background-color: rgb(20, 20, 20);
   color: #fff;
   font-weight: 800;
-  line-height: 30px;
+  line-height: 20px;
   border: none;
+  border-radius: 5px;
 }
 
 .green-place__button:hover {
