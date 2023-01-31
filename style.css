@@ -67,6 +67,9 @@
 .contacts__adress {
   font-size: 15px;
   font-weight: 700;
+  margin-bottom: 0;
+  margin-top: 10px;
+  padding-bottom: 15px;
 }
 
 .green-place {
@@ -199,9 +202,9 @@
   line-height: 25px;
 }
 
-.btn_type_footer {
+/* .btn_type_footer {
   margin-bottom: 70px;
-}
+} */
 
 @media screen and (min-width: 1000px) {
   .services {
