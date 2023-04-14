@@ -1,1 +1,5 @@
-# wonderful-garden-like site online https://kampel2012.github.io/wonderful-garden-like/
+# Дивный сад
+
+### Учебный проект в целях отработки БЭМ методологии и тренировки в вёрстке
+
+## ссылка на проект: https://kampel2012.github.io/wonderful-garden-like/
